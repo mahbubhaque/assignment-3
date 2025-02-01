@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Shop</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font adlam -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .adlam-font {
+        font-family: "ADLaM Display", serif;
+      }
+      .sora-font {
+        font-family: "Sora", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <header
+      class="bg-[#FFF9F4] flex justify-between items-center p-4 sora-font"
+    >
+      <div class="flex items-center gap-4">
+        <img class="w-10 h-10" src="images/logo-header.png" alt="Logo" />
+        <h3 class="text-2xl hidden sm:block">
+          Browse<span class="text-[#FFDC26]">4</span>Pets
+        </h3>
+      </div>
+      <!-- nevbar section -->
+      <nav class="hidden sm:flex gap-8 font-xl text-xl text-[#111111]">
+        <ul>
+          Find a pet
+        </ul>
+        <ul>
+          Breeds
+        </ul>
+        <ul>
+          Contact us
+        </ul>
+      </nav>
+      <div class="flex items-center gap-4">
+        <div class="flex gap-4">
+          <svg
+            class="w-4 hidden sm:block"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"
+            />
+          </svg>
+          <svg
+            class="w-4 hidden sm:block"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
+        </div>
+        <div class="flex gap-2">
+          <button
+            class="text-center w-20 h-8 border border-[#FFDC26] rounded-lg hidden sm:block"
+          >
+            Login
+          </button>
+          <button
+            class="text-center w-24 h-8 bg-[#FFDC26] rounded-lg hidden sm:block"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+      <div class="sm:hidden">
+        <svg
+          class="w-8 h-8"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+    </header>
+  </body>
+</html>
